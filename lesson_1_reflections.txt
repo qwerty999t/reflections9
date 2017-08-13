@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When we create software, we're trying to make little changes but 
+    often. Therefore if we made a mistake, we can see it comparing the 
+    old version and new version.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    We can compare code, make better our software. Make changes, make optimization, find bugs.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	The pros are that you choose where is good to make a logic breakpoint. But on the other hand you can write some new feature and don't have the sense to do the breakpoint. In this case it's better automatic save, but what if at the moment we are currently working on some feature that is not finished?
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git was created to use with software. And everyone knows that every file in program is linked to another. In Google Docs maybe we can't save multiple files in one commit because we don't always write some files that are interconnected. At least we can write all this in one file. Like one bit repository in one file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	With git log we can see all the commits, authors, messages and dates. Also if we use flag --stat, we can see how many insertions and deletions there were. With git diff we can compare two commits, and see the changes between them. It is usefull when we search an error, adding new feature, looking for code optimization. 
+
+How might using version control make you more confident to make changes that could break something?
+
+	When you use version control you can make changes and don't be afraid of possible bugs. This means that you can expriment more. If you create a bug, you can then easily fix it with version control.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to create my really own big project!!!!
